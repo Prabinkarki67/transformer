@@ -157,9 +157,7 @@ For teacher forcing during training, pass the target sequence shifted by one pos
 - **Attention heads:** `8` to `16` is a common range. Ensure that `embed_size` is divisible by `heads`.
 - **Batch size:** Use the largest size that fits in memory, with gradient accumulation when needed.
 
-## License
 
-This project is intended to be released under the MIT License.
 
 ## References
 
