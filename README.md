@@ -63,7 +63,7 @@ The final linear layer maps decoder hidden states to target vocabulary logits.
 Scaled dot-product attention is computed as:
 
 $$
-\operatorname{Attention}(Q, K, V) = \operatorname{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+\mathrm{Attention}(Q, K, V) = \mathrm{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
 $$
 
 The implementation computes attention for several heads in parallel, allowing the model to capture different relationships between tokens.
